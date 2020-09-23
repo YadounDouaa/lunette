@@ -1,0 +1,95 @@
+*
+{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	font-family: "montserrat";
+
+}
+
+img#sld{
+	width: 100%;
+	margin-top: 0px;
+	margin-bottom: -30px;
+	margin-left: -2px;
+	margin-right: 0px;
+	background-size: cover;
+	position: auto;
+}
+
+.card{
+	width: 360px;
+	background: #f1f1f1;
+	opacity: 90%;
+	position: absolute;
+	top: 73%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	border-radius: 50px;
+}
+
+.top-section{
+	height: 310px;
+	overflow: hidden;
+	background:#f1f1f1;
+	position: relative;
+	border-radius: 50px;
+}
+
+#image-container
+{
+	width: 360px;
+	height: 240px;
+}
+.nav{
+	text-align: center;
+}
+.nav img{
+	width: 80px;
+	height: 50px;
+	border: 1px solid #ddd;
+	margin: 8px 2px;
+	cursor: pointer;
+	transition: 0.3s;
+
+}
+.nav img:hover{
+	border-color: #6ab04c;
+}
+.price{
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	color: #204051;
+	font-size: 24px;
+}
+.product.info{
+	padding: 24px;
+}
+.name
+{
+	text-transform: uppercase;
+	font-size: 24px;
+	color: #333;
+}
+.dis{
+	font-size: 16px;
+	opacity: 0.7;
+}
+.btn{
+	display: block;
+	background: #204051;
+	text-align: center;
+	color: #fff;
+	padding: 10px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 35px;
+	margin-right: 35px;
+	transition: 0.3s;
+	border-radius: 200px;
+}
+.btn:hover{
+	background: #333;
+}
+
